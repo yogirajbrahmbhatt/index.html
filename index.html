@@ -107,9 +107,10 @@
 								<br>
 								<h3>or fill the form below:</h3>
 								<form action="https://formspree.io/f/xvovbaae" method="POST">
-									<p>Name <input type="text" name="name"></p> 
-									<p>Email <input type="text" name="email"></p>
-									<p>Message <textarea name="message" rows="6" cols="25"></textarea><br /></p>
+									<p>Name <input type="text" name="name" required></p> 
+									<p>Email <input type="text" name="email" required></p>
+									<p>Phone Number<input type="text" name="phone" placeholder="along with your Country code" required></p>
+									<p>Message <textarea name="message" rows="6" cols="25" required></textarea><br /></p>
 									<input type="submit" value="Send">
 									<input type="reset" value="Clear">
 								</form>						
